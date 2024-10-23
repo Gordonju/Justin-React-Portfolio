@@ -1,77 +1,88 @@
 body {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .card {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  #header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  h1 {
-    font-family: 'Finger Paint', cursive;
-    font-size: 2.5em;
-    color: #444;
-  }
-  
-  #message-section {
-    height: 300px;
-    overflow-y: auto;
-    margin-bottom: 20px;
-  }
-  
-  .message {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .message.bot {
-    background-color: #e0f7fa;
-    text-align: left;
-  }
-  
-  .message.user {
-    background-color: #ffccbc;
-    text-align: right;
-  }
-  
-  #input-section {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #input {
-    flex-grow: 1;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .send {
-    margin-left: 10px;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .circle {
-    background-color: #007bff;
-    border-radius: 50%;
-    padding: 10px;
-  }
-  
-  .zmdi-mail-send {
-    color: white;
-    font-size: 1.5em;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #001f3f, #004d99);
+  color: #e0e0e0; /* Light gray for body text */
+  background-image: url('https://example.com/stars.png'); /* Replace with a starry background image */
+  background-size: cover;
+}
+
+.card {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Finger Paint', cursive;
+  font-size: 2.5em;
+  color: #ffcc00; /* Golden color for the header */
+}
+
+#message-section {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05); /* Slightly transparent background */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff; /* White text for messages */
+}
+
+.message.bot {
+  background-color: rgba(224, 247, 250, 0.7); /* Light blue for bot messages */
+  text-align: left;
+}
+
+.message.user {
+  background-color: rgba(255, 204, 188, 0.7); /* Light peach for user messages */
+  text-align: right;
+}
+
+#input-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent input */
+  color: #fff; /* White text in input */
+}
+
+.send {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffcc00; /* Golden color for send button */
+}
+
+.circle {
+  background-color: #007bff; /* Deep space blue */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.zmdi-mail-send {
+  color: white; /* White color for send icon */
+  font-size: 1.5em;
+}
